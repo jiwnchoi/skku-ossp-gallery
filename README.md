@@ -7,4 +7,4 @@ Project gallery for open-source software lecture at Sungkyunkwan University.
 
 Professor: [Jaemin Jo](https://github.com/e-) 
 
-TA: [Jiwon Choi](htttps://git.jasonchoi.dev)
+TA: [Jiwon Choi](https://git.jasonchoi.dev)
