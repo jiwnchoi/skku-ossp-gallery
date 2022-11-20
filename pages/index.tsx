@@ -1,3 +1,4 @@
+import { Box, Stack } from "@chakra-ui/react";
 import Head from "next/head";
 import { useRecoilValue } from "recoil";
 import { Preview } from "../components/Preview";
@@ -11,7 +12,11 @@ export default function Home() {
                 <title>SKKU OSSP Gallery</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Preview project={data[0]}></Preview>
+            <Stack direction="row" padding={2} spacing={2}>
+                <Preview project={data[0]}></Preview>
+                <Preview project={data[0]}></Preview>
+                <Preview project={data[0]}></Preview>
+            </Stack>
         </div>
     );
 }
