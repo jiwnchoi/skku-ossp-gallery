@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const getYoutubeThumbnail = async (videoURL: string) => {
+export const getYoutubeThumbnail = (videoURL: string) => {
     const videoid = videoURL.split("v=")[1];
     return `https://img.youtube.com/vi/${videoid}/maxresdefault.jpg`;
 };
