@@ -1,20 +1,22 @@
-[
-    {
-        "id": 0,
-        "projectName": "맛집 찾기",
-        "students": [
-            {
-                "id": "2019311037",
-                "name": "최지원",
-                "department": "컴퓨터교육과"
-            },
-            {
-                "id": "2009311111",
-                "name": "조재민",
-                "department": "소프트웨어학과"
-            }
-        ],
-        "videoUrl": "https://www.youtube.com/watch?v=tXpd7pUj-0E",
-        "repositoryUrl": "https://github.com/Jason-Choi/skku-ossp-gallery",
-    }
-]
+{
+    "projects": [
+        {
+            "id": 0,
+            "projectName": "맛집 찾기",
+            "students": [
+                {
+                    "id": "2019311037",
+                    "name": "최지원",
+                    "department": "컴퓨터교육과"
+                },
+                {
+                    "id": "2009311111",
+                    "name": "조재민",
+                    "department": "소프트웨어학과"
+                }
+            ],
+            "videoUrl": "https://www.youtube.com/watch?v=tXpd7pUj-0E",
+            "repositoryUrl": "https://github.com/Jason-Choi/skku-ossp-gallery",
+        }
+    ]
+}

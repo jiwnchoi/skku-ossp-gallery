@@ -10,5 +10,7 @@ export const fetchData = async () => {
     const { data }: { data: string } = await axios.get(
         "https://raw.githubusercontent.com/Jason-Choi/skku-ossp-gallery/main/data/mockup.json"
     );
+    console.log(123, data[507])
+    console.log(JSON.parse(data)[0]);
     return JSON.parse(data);
 };
