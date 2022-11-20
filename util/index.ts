@@ -8,9 +8,17 @@ export const getYoutubeThumbnail = (videoURL: string) => {
 
 export const fetchData = async () => {
     const { data }: { data: string } = await axios.get(
-        "https://raw.githubusercontent.com/Jason-Choi/skku-ossp-gallery/main/data/mockup.json"
+        "https://raw.githubusercontent.com/Jason-Choi/skku-ossp-gallery/main/data/mockup.json",
+        {
+            headers: {
+                "Cache-Control": "no-store",
+                Pragma: "no-store",
+                Expires: "0",
+            },
+        }
     );
-    console.log(123, data[507])
-    console.log(JSON.parse(data)[0]);
+    
+    
+    console.log(JSON.parse(data));
     return JSON.parse(data);
 };
