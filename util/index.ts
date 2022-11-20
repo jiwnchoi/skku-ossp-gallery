@@ -1,4 +1,5 @@
 import axios from "axios";
+import { Project } from "../types";
 
 export const getYoutubeThumbnail = (videoURL: string) => {
     const videoid = videoURL.split("v=")[1];
@@ -6,6 +7,8 @@ export const getYoutubeThumbnail = (videoURL: string) => {
 };
 
 export const fetchData = async () => {
-    const { data } = await axios.get("https://github.com/jason-choi/skku-ossp-gallery/data/mockup.json");
-    return data;
-}
+    const { data }: { data: string } = await axios.get(
+        "https://raw.githubusercontent.com/Jason-Choi/skku-ossp-gallery/main/data/mockup.json"
+    );
+    return JSON.parse(data);
+};

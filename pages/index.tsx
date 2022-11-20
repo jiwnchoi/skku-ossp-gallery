@@ -1,14 +1,17 @@
-import { Text } from '@chakra-ui/react'
-import Head from 'next/head'
+import Head from "next/head";
+import { useRecoilValue } from "recoil";
+import { Preview } from "../components/Preview";
+import { dataSelector } from "../states";
 
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>SKKU OSSP Gallery</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Text fontWeight={600} fontSize={48}>Hello World</Text>
-    </div>
-  )
+    const data = useRecoilValue(dataSelector);
+    return (
+        <div>
+            <Head>
+                <title>SKKU OSSP Gallery</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <Preview project={data[0]}></Preview>
+        </div>
+    );
 }
