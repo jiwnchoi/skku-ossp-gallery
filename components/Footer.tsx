@@ -23,16 +23,20 @@ export const Footer = () => (
                 </Link>
             </Stack>
             <Stack direction={"column"} align="end" spacing={0}>
-                <Text color="gray.500">Professor</Text>
+                <Text color="gray.500" fontSize={"xs"}>
+                    Professor
+                </Text>
                 <Link href="https://github.com/e-">
                     <Text color="gray.500" fontWeight={600}>
                         Jaemin Jo
                     </Text>
                 </Link>
-                <Text color="gray.500">TA & Developed</Text>
+                <Text color="gray.500" fontSize={"xs"}>
+                    Developed by
+                </Text>
                 <Link href="https://github.com/jason-choi">
                     <Text color="gray.500" fontWeight={600}>
-                        Jiwon Jason Choi
+                        Jiwon Choi
                     </Text>
                 </Link>
             </Stack>

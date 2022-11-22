@@ -19,16 +19,25 @@ export const Header = () => {
                     </Flex>
                 </Center>
                 <Center>
-                    <Stack direction={{ base: "column", sm: "row" }} spacing={0}>
-                        <Button variant={"ghost"} leftIcon={<ImLab />} size={{ base: "sm", md: "xl" }} px={4} onClick={() => window.open("https://idclab.skku.edu")}>
+                    <Stack direction={{ base: "column", sm: "row" }} spacing={0} align="start">
+                        <Button py={3} variant={"ghost"} leftIcon={<ImLab />} size={{ base: "sm", md: "xl" }} px={4} onClick={() => window.open("https://idclab.skku.edu")}>
                             <Flex>
-                                <Text fontFamily="idc" fontWeight={600}>
+                                <Text fontSize={"lg"} fontFamily="idc" fontWeight={600}>
                                     IDC
                                 </Text>
-                                <Text fontFamily="idc">Lab</Text>
+                                <Text fontSize={"lg"} fontFamily="idc" fontWeight={500}>
+                                    Lab
+                                </Text>
                             </Flex>
                         </Button>
-                        <Button variant={"ghost"} leftIcon={<AiFillGithub />} size={{ base: "sm", md: "xl" }} px={4} onClick={() => window.open("https://github.com/jason-choi/skku-ossp-gallery")}>
+                        <Button
+                            py={3}
+                            variant={"ghost"}
+                            leftIcon={<AiFillGithub />}
+                            size={{ base: "sm", md: "xl" }}
+                            px={4}
+                            onClick={() => window.open("https://github.com/jason-choi/skku-ossp-gallery")}
+                        >
                             Github
                         </Button>
                     </Stack>
