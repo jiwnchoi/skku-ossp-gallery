@@ -25,7 +25,7 @@ export const Footer = () => (
                 <Link href="https://idclab.skku.edu">
                     <Flex>
                         <Text
-                            fontFamily="Rajdhani"
+                            fontFamily="idc"
                             fontWeight={600}
                             color="gray.600"
                             fontSize="24"
@@ -33,7 +33,7 @@ export const Footer = () => (
                             IDC
                         </Text>
                         <Text
-                            fontFamily="Rajdhani"
+                            fontFamily="idc"
                             fontSize="24"
                             color="gray.600"
                         >

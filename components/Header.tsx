@@ -48,12 +48,12 @@ export const Header = () => {
                         >
                             <Flex>
                                 <Text
-                                    fontFamily="Rajdhani"
+                                    fontFamily="idc"
                                     fontWeight={600}
                                 >
                                     IDC
                                 </Text>
-                                <Text fontFamily="Rajdhani">
+                                <Text fontFamily="idc">
                                     Lab
                                 </Text>
                             </Flex>
