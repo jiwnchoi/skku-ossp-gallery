@@ -17,7 +17,6 @@ const getImageSrc = (videoUrl: string) =>
     `https://img.youtube.com/vi/${videoUrl.split("v=")[1]}/maxresdefault.jpg`;
 
 export const Preview = ({ project }: PreviewProject) => {
-    console.log(project);
     return (
         <Card
             width={"full"}
