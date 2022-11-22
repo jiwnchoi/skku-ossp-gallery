@@ -10,8 +10,8 @@ export const Header = () => {
             role={"navigation"}
             minH="16"
             width="full"
-            py={2}
             px={4}
+            mt={1}
             position={"fixed"}
             top={0}
             backgroundColor="white"
@@ -21,49 +21,54 @@ export const Header = () => {
                 direction={"row"}
                 w={{ base: "full", xl: "container.xl" }}
                 justifyContent={"space-between"}
+                verticalAlign="center"
             >
-                <Flex direction={"row"}>
-                    <SKKULogo width="32" />
+                <Center>
+                    <SKKULogo width="30" />
                     <Flex direction={"column"} marginLeft={4}>
-                        <Text fontSize={"md"} color="gray.600">
+                        <Text fontSize={"sm"} color="gray.600">
                             성균관대학교 소프트웨어학과
                         </Text>
-                        <Text fontSize={"lg"} fontWeight={600} color="gray.600">
+                        <Text fontSize={"md"} fontWeight={600} color="gray.600">
                             오픈소스 소프트웨어 실습
                         </Text>
                     </Flex>
-                </Flex>
-                <Stack direction={"row"}>
-                    <Button
-                        variant={"ghost"}
-                        leftIcon={<ImLab />}
-                        size="lg"
-                        px={3}
-                        onClick={() => window.open("https://idclab.skku.edu")}
-                    >
-                        <Flex>
-                            <Text
-                                fontFamily="Rajdhani"
-                                fontWeight={600}
-                                fontSize="20"
-                            >
-                                IDC
-                            </Text>
-                            <Text fontFamily="Rajdhani" fontSize="20">
-                                Lab
-                            </Text>
-                        </Flex>
-                    </Button>
-                    <Button
-                        variant={"ghost"}
-                        leftIcon={<AiFillGithub />}
-                        size="lg"
-                        px={3}
-                        onClick={() => window.open("https://github.com/jason-choi/skku-ossp-gallery")}
-                    >
-                        Github
-                    </Button>
-                </Stack>
+                </Center>
+                <Center>
+                    <Stack direction={{ base: "column", sm: "row" }} spacing={0}>
+                        <Button
+                            variant={"ghost"}
+                            leftIcon={<ImLab />}
+                            size={{ base: "sm", md: "xl" }}
+                            px={4}
+
+
+                            onClick={() => window.open("https://idclab.skku.edu")}
+                        >
+                            <Flex>
+                                <Text
+                                    fontFamily="Rajdhani"
+                                    fontWeight={600}
+                                >
+                                    IDC
+                                </Text>
+                                <Text fontFamily="Rajdhani">
+                                    Lab
+                                </Text>
+                            </Flex>
+                        </Button>
+                        <Button
+                            variant={"ghost"}
+                            leftIcon={<AiFillGithub />}
+                            size={{ base: "sm", md: "xl" }}
+                            px={4}
+
+                            onClick={() => window.open("https://github.com/jason-choi/skku-ossp-gallery")}
+                        >
+                            Github
+                        </Button>
+                    </Stack>
+                </Center>
             </Stack>
         </Center>
     );

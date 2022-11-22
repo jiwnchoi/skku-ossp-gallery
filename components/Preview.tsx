@@ -38,38 +38,40 @@ export const Preview = ({ project }: PreviewProject) => {
             </AspectRatio>
             <CardBody>
                 <Stack direction={"column"} spacing={2}>
-                    <Text fontSize={26} fontWeight={700}>
+                    <Text fontSize={{ base: 20, md: 24 }} fontWeight={700}>
                         {project.projectName}
                     </Text>
-                    <Text>프로젝트 설명을 위한 Placeholder 입니다.</Text>
+                    <Text fontSize={{ base: "sm", md: "md" }}>프로젝트 설명을 위한 Placeholder 입니다.</Text>
                     <Divider />
                     {project.students.map((student) => (
                         <Stack direction={"row"} key={student.name}>
-                            <Text size="sm" fontWeight={600}>
+                            <Text fontSize={{ base: "xs", md: "sm" }} fontWeight={600}>
                                 {student.name}
                             </Text>
-                            <Text size="sm">{student.department}</Text>
+                            <Text fontSize={{ base: "xs", md: "sm" }}>{student.department}</Text>
                         </Stack>
                     ))}
                     <Divider />
                     <Stack direction={"row"}>
                         <Button
+                            size={{ base: "xs", sm: "sm", md: "md" }}
                             width="50%"
                             colorScheme={"github"}
                             variant="solid"
                             leftIcon={<AiFillGithub />}
                             onClick={() => window.open(project.repositoryUrl)}
                         >
-                            Github
+                            <Text fontSize={{ base: 7, sm: "sm", md: "md" }}>Github</Text>
                         </Button>
                         <Button
+                            size={{ base: "xs", sm: "sm", md: "md" }}
                             width="50%"
                             colorScheme={"red"}
                             variant="solid"
                             leftIcon={<AiFillYoutube />}
                             onClick={() => window.open(project.videoUrl)}
                         >
-                            Youtube
+                            <Text fontSize={{ base: 7, sm: "sm", md: "md" }}>Youtube</Text>
                         </Button>
                     </Stack>
                 </Stack>
