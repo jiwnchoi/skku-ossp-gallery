@@ -1,35 +1,19 @@
-import {
-    AspectRatio, Button,
-    Card,
-    CardBody,
-    Divider, Stack,
-    Text
-} from "@chakra-ui/react";
-import Image from "next/image";
-import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
-import type { Project } from "../types";
+import { AspectRatio, Button, Card, CardBody, Divider, Stack, Text } from "@chakra-ui/react"
+import Image from "next/image"
+import { AiFillGithub, AiFillYoutube } from "react-icons/ai"
+import type { Project } from "../types"
 
 interface PreviewProject {
-    project: Project;
+    project: Project
 }
 
-const getImageSrc = (videoUrl: string) =>
-    `https://img.youtube.com/vi/${videoUrl.split("v=")[1]}/maxresdefault.jpg`;
+const getImageSrc = (videoUrl: string) => `https://img.youtube.com/vi/${videoUrl.split("v=")[1]}/maxresdefault.jpg`
 
 export const Preview = ({ project }: PreviewProject) => {
     return (
-        <Card
-            width={"full"}
-            direction={"column"}
-            variant="elevated"
-            overflow={"hidden"}
-        >
+        <Card width={"full"} direction={"column"} variant="elevated" overflow={"hidden"} backgroundColor={"white"}>
             <AspectRatio width={"full"} ratio={16 / 9}>
-                <Image
-                    fill
-                    src={getImageSrc(project.videoUrl)}
-                    alt={`${project.projectName} thumbnail`}
-                />
+                <Image fill src={getImageSrc(project.videoUrl)} alt={`${project.projectName} thumbnail`} />
             </AspectRatio>
             <CardBody>
                 <Stack direction={"column"} spacing={2}>
@@ -72,5 +56,5 @@ export const Preview = ({ project }: PreviewProject) => {
                 </Stack>
             </CardBody>
         </Card>
-    );
-};
+    )
+}
