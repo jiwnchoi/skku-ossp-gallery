@@ -1,17 +1,13 @@
 import {
-    AspectRatio,
-    Box,
-    Button,
+    AspectRatio, Button,
     Card,
     CardBody,
-    Divider,
-    Heading,
-    Stack,
-    Text,
+    Divider, Stack,
+    Text
 } from "@chakra-ui/react";
 import Image from "next/image";
-import type { Project } from "../types";
 import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
+import type { Project } from "../types";
 
 interface PreviewProject {
     project: Project;
@@ -45,33 +41,33 @@ export const Preview = ({ project }: PreviewProject) => {
                     <Divider />
                     {project.students.map((student) => (
                         <Stack direction={"row"} key={student.name}>
-                            <Text fontSize={{ base: "xs", md: "sm" }} fontWeight={600}>
+                            <Text fontSize={{ base: "sm", md: "sm" }} fontWeight={600}>
                                 {student.name}
                             </Text>
-                            <Text fontSize={{ base: "xs", md: "sm" }}>{student.department}</Text>
+                            <Text fontSize={{ base: "sm", md: "sm" }}>{student.department}</Text>
                         </Stack>
                     ))}
                     <Divider />
-                    <Stack direction={"row"}>
+                    <Stack direction={{ base: "column", sm: "row" }}>
                         <Button
-                            size={{ base: "xs", sm: "sm", md: "md" }}
-                            width="50%"
+                            size={{ base: "sm", md: "md" }}
+                            width={{ base: "100%", md: "50%" }}
                             colorScheme={"github"}
                             variant="solid"
                             leftIcon={<AiFillGithub />}
                             onClick={() => window.open(project.repositoryUrl)}
                         >
-                            <Text fontSize={{ base: 7, sm: "sm", md: "md" }}>Github</Text>
+                            <Text fontSize={{ base: "sm", md: "md" }}>Github</Text>
                         </Button>
                         <Button
-                            size={{ base: "xs", sm: "sm", md: "md" }}
-                            width="50%"
+                            size={{ base: "sm", md: "md" }}
+                            width={{ base: "100%", md: "50%" }}
                             colorScheme={"red"}
                             variant="solid"
                             leftIcon={<AiFillYoutube />}
                             onClick={() => window.open(project.videoUrl)}
                         >
-                            <Text fontSize={{ base: 7, sm: "sm", md: "md" }}>Youtube</Text>
+                            <Text fontSize={{ base: "sm", md: "md" }}>Youtube</Text>
                         </Button>
                     </Stack>
                 </Stack>

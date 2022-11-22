@@ -11,7 +11,7 @@ export const Header = () => {
             minH="16"
             width="full"
             px={4}
-            mt={1}
+
             position={"fixed"}
             top={0}
             backgroundColor="white"
@@ -19,6 +19,7 @@ export const Header = () => {
         >
             <Stack
                 direction={"row"}
+                mt={1}
                 w={{ base: "full", xl: "container.xl" }}
                 justifyContent={"space-between"}
                 verticalAlign="center"
