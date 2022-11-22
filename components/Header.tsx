@@ -1,7 +1,7 @@
 import { Button, Center, Flex, Stack, Text } from "@chakra-ui/react"
 import { AiFillGithub } from "react-icons/ai"
 import { ImLab } from "react-icons/im"
-import SKKULogo from "../assets/skku.svg"
+import SKKULogo from "../public/skku.svg"
 
 export const Header = () => {
     return (

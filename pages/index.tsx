@@ -10,7 +10,7 @@ export default function Home() {
         <Box backgroundColor={"gray.50"}>
             <Head>
                 <title>SKKU OSSP Gallery</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link type="image/png" rel="icon" href="https://www.skku.edu/_res/skku/img/common/favicon.png" />
             </Head>
 
             <Container pt={16} pb={20} maxW={{ base: "container.sm", lg: "container.lg", xl: "container.xl" }}>
