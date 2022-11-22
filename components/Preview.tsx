@@ -1,4 +1,5 @@
 import {
+    AspectRatio,
     Box,
     Button,
     Card,
@@ -16,9 +17,6 @@ interface PreviewProject {
     project: Project;
 }
 
-const imageLoader = ({ src }: { src: string }) =>
-    `https://img.youtube.com${src}`;
-
 const getImageSrc = (videoUrl: string) =>
     `https://img.youtube.com/vi/${videoUrl.split("v=")[1]}/maxresdefault.jpg`;
 
@@ -26,23 +24,23 @@ export const Preview = ({ project }: PreviewProject) => {
     console.log(project);
     return (
         <Card
-            minW={"sm"}
+            width={{ base: "full", lg : 300}}
             direction={"column"}
             variant="elevated"
             overflow={"hidden"}
         >
-            <Box width={"full"} height="13.5rem" position="relative">
+            <AspectRatio width={"full"} ratio={16 / 9}>
                 <Image
                     fill
                     src={getImageSrc(project.videoUrl)}
                     alt={`${project.projectName} thumbnail`}
                 />
-            </Box>
+            </AspectRatio>
             <CardBody>
                 <Stack direction={"column"} spacing={2}>
-                    <Heading size="lg" fontWeight={800}>
+                    <Text fontSize={26} fontWeight={700}>
                         {project.projectName}
-                    </Heading>
+                    </Text>
                     <Text>프로젝트 설명을 위한 Placeholder 입니다.</Text>
                     <Divider />
                     {project.students.map((student) => (
