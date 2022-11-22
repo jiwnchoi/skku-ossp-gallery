@@ -9,7 +9,7 @@ export const Footer = () => (
         py={8}
         position="relative"
         backgroundColor="white"
-        boxShadow="base"
+        boxShadow="xs"
     >
         <Stack
             direction={"row"}

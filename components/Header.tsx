@@ -15,7 +15,7 @@ export const Header = () => {
             position={"fixed"}
             top={0}
             backgroundColor="white"
-            boxShadow={"base"}
+            boxShadow={"xs"}
         >
             <Stack
                 direction={"row"}
@@ -35,10 +35,11 @@ export const Header = () => {
                 </Flex>
                 <Stack direction={"row"}>
                     <Button
-                        variant={"link"}
+                        variant={"ghost"}
                         leftIcon={<ImLab />}
                         size="lg"
-                        p={2}
+                        px={3}
+                        onClick={() => window.open("https://idclab.skku.edu")}
                     >
                         <Flex>
                             <Text
@@ -54,10 +55,11 @@ export const Header = () => {
                         </Flex>
                     </Button>
                     <Button
-                        variant={"link"}
+                        variant={"ghost"}
                         leftIcon={<AiFillGithub />}
                         size="lg"
-                        p={2}
+                        px={3}
+                        onClick={() => window.open("https://github.com/jason-choi/skku-ossp-gallery")}
                     >
                         Github
                     </Button>
