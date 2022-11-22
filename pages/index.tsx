@@ -30,11 +30,11 @@ export default function Home() {
             {loadingState ? (
                 <Box>Loading</Box>
             ) : (
-                <Container maxW={{ base: "container.sm", xl: "container.xl" }}>
+                <Container maxW={{ base: "container.sm", lg : "container.lg", xl: "container.xl" }}>
                     <SimpleGrid
                         my={20}
-                        columns={{ base: 2, xl: 4 }}
-                        spacing="10"
+                        columns={{ base: 2, lg: 3, xl: 4 }}
+                        spacing={4}
                     >
                         <Preview project={dataState[0]}></Preview>
                         <Preview project={dataState[0]}></Preview>

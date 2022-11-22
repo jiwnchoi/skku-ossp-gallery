@@ -24,7 +24,7 @@ export const Preview = ({ project }: PreviewProject) => {
     console.log(project);
     return (
         <Card
-            width={{ base: "full", lg : 300}}
+            width={"full"}
             direction={"column"}
             variant="elevated"
             overflow={"hidden"}

@@ -37,7 +37,6 @@ export const Header = () => {
                     <Button
                         variant={"link"}
                         leftIcon={<ImLab />}
-                        mx={2}
                         size="lg"
                         p={2}
                     >
@@ -57,7 +56,6 @@ export const Header = () => {
                     <Button
                         variant={"link"}
                         leftIcon={<AiFillGithub />}
-                        mx={2}
                         size="lg"
                         p={2}
                     >
