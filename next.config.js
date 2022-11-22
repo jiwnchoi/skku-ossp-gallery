@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  basePath: "/skku-ossp-gallery",
   images: {
     unoptimized: true,
     domains: ['img.youtube.com'],
