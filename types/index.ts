@@ -4,6 +4,8 @@ interface Project {
     students: Student[]
     videoUrl: string
     repositoryUrl: string
+    description : string
+    liveDemoUrl: string
 }
 
 interface Student {
