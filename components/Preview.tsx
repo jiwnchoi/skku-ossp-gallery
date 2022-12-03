@@ -16,7 +16,7 @@ interface PreviewProject {
 }
 
 const getImageSrc = (videoUrl: string) =>
-    `https://img.youtube.com/vi/${videoUrl.split("v=")[1]}/mqdefault.jpg`;
+    `https://img.youtube.com/vi/${videoUrl.split("v=")[1]}/hqdefault.jpg`;
 
 export const Preview = ({ project }: PreviewProject) => {
     return (
