@@ -2,6 +2,8 @@
 
 Project gallery for open-source software lecture at Sungkyunkwan University.
 
+[Link](https://git.jasonchoi.dev/skku-ossp-gallery)
+
 
 ##  [IDCLab](https://idclab.skku.edu)
 
