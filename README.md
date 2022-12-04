@@ -1,6 +1,8 @@
 # SKKU OSSP Gallery
 
 Project gallery for open-source software lecture at Sungkyunkwan University.
+<img width="1600" alt="image" src="https://user-images.githubusercontent.com/2310571/205513959-48251be3-6480-44be-985d-8a465bbc43ad.png">
+
 
 [Link](https://git.jasonchoi.dev/skku-ossp-gallery)
 
