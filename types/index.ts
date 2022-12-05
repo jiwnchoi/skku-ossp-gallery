@@ -6,6 +6,7 @@ interface Project {
     repositoryUrl: string
     description : string
     liveDemoUrl: string
+    prize: boolean
 }
 
 interface Student {

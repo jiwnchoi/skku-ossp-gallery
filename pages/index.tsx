@@ -5,8 +5,8 @@ import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Preview } from "../components/Preview";
 import { Project } from "../types";
-import mockupState from "../data/mockup.json";
 import axios from "axios";
+import { PRIZE_ONLY, SHUFFLE } from "../config";
 
 export default function Home() {
     const [dataState, setDataState] = useState<Project[]>([]);
@@ -19,7 +19,7 @@ export default function Home() {
             const result = await axios.get(
                 "https://raw.githubusercontent.com/Jason-Choi/skku-ossp-gallery/main/data/2022fall.json"
             );
-            const shuffledData = shuffle(result.data);
+            const shuffledData = SHUFFLE ? shuffle(result.data) : result.data;
             setDataState(shuffledData);
             setLoadingState(false);
         }
@@ -51,14 +51,9 @@ export default function Home() {
                 </Heading>
                 {loadingState ? null : (
                     <SimpleGrid columns={{ base: 2, lg: 3, xl: 4 }} spacing={4}>
-                        {Array(32)
-                            .fill(0)
-                            .map((_, i) => (
-                                <Preview
-                                    project={dataState[i]}
-                                    key={i}
-                                ></Preview>
-                            ))}
+                        {dataState.filter((d) => PRIZE_ONLY ? d.prize : true).map((d, i) => (
+                            <Preview project={d} key={`preview${i}`}></Preview>
+                        ))}
                     </SimpleGrid>
                 )}
             </Container>

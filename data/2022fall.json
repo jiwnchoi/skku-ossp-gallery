@@ -19,7 +19,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=tBe3q0kzsio",
         "repositoryUrl": "https://github.com/kjs990114/SKKU.GG",
         "liveDemoUrl": "",
-        "description": "SKKU.GG는 온라인 게임 League of Legends의 전적 검색 기능과 미니 홈페이지, 교내별 랭킹기능을 지원하는 웹사이트입니다.\n"
+        "description": "SKKU.GG는 온라인 게임 League of Legends의 전적 검색 기능과 미니 홈페이지, 교내별 랭킹기능을 지원하는 웹사이트입니다.\n",
+        "prize": true
     },
     {
         "id": 2,
@@ -41,7 +42,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=pI2VQHGsJhQ",
         "repositoryUrl": "https://github.com/suooo/2022-OSS-Team2",
         "liveDemoUrl": "https://suooo.github.io/2022-OSS-Team2/",
-        "description": "현재와 미래의 날씨뿐만 아니라 과거의 날씨 또한 확인할 수 있으며 해당 날씨와 기온에 따른 알맞은 옷차림 등 자신만의 메모를 작성하여 저장하고 확인할 수 있는 웹페이지를 개발\n"
+        "description": "현재와 미래의 날씨뿐만 아니라 과거의 날씨 또한 확인할 수 있으며 해당 날씨와 기온에 따른 알맞은 옷차림 등 자신만의 메모를 작성하여 저장하고 확인할 수 있는 웹페이지를 개발\n",
+        "prize": false
     },
     {
         "id": 3,
@@ -60,10 +62,11 @@
                 "department": "소프트웨어학과"
             }
         ],
-        "videoUrl": "https://www.youtube.com/watch?v=-9tQc1o688E",
+        "videoUrl": "https://www.youtube.com/watch?v=-9tQc1o688E&feature=youtu.be",
         "repositoryUrl": "https://github.com/Suyoung-Min/Hang-man",
         "liveDemoUrl": "https://suyoung-min.github.io/Hang-man/",
-        "description": "Hangman is a word guessing game. Guess a word, phrase by suggesting letters within a certain number of guesses."
+        "description": "Hangman is a word guessing game. Guess a word, phrase by suggesting letters within a certain number of guesses.",
+        "prize": true
     },
     {
         "id": 4,
@@ -85,7 +88,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=24XClweTBfM",
         "repositoryUrl": "https://github.com/sanmong/SKKU_Trip_Checker",
         "liveDemoUrl": "",
-        "description": "Real-time Congestion Checker for Popular Places"
+        "description": "Real-time Congestion Checker for Popular Places",
+        "prize": true
     },
     {
         "id": 5,
@@ -107,7 +111,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=AbGDpvCUAVQ",
         "repositoryUrl": "https://github.com/Goathoon/OSSP-5",
         "liveDemoUrl": "",
-        "description": "e스포츠 대회들에 대한 정보를 한 데 모으고, 사용자의 선호도에 맞춘 달력을 보여줌으로써 e스포츠 대회에 대한 전반적인 관심과 흥미를 유발"
+        "description": "e스포츠 대회들에 대한 정보를 한 데 모으고, 사용자의 선호도에 맞춘 달력을 보여줌으로써 e스포츠 대회에 대한 전반적인 관심과 흥미를 유발",
+        "prize": true
     },
     {
         "id": 6,
@@ -129,11 +134,12 @@
         "videoUrl": "https://www.youtube.com/watch?v=DciHItbnJm8",
         "repositoryUrl": "https://github.com/taeyangk0331/SKKU_OSSP_Project",
         "liveDemoUrl": "",
-        "description": "Automatically generate profile based on GitHub."
+        "description": "Automatically generate profile based on GitHub.",
+        "prize": true
     },
     {
         "id": 7,
-        "projectName": "Hangout",
+        "projectName": "Hangour",
         "students": [
             {
                 "name": "김동현",
@@ -151,7 +157,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=IFPoISu1zbA",
         "repositoryUrl": "https://github.com/OpenSourceProject-meet/Hangout",
         "liveDemoUrl": "",
-        "description": "Making it convenient for friends to match their schedule and discover new places to hang out near SKKU."
+        "description": "Making it convenient for friends to match their schedule and discover new places to hang out near SKKU.",
+        "prize": true
     },
     {
         "id": 8,
@@ -173,7 +180,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=__LdtIaBSUU",
         "repositoryUrl": "https://github.com/gunhee8178/SKKU_MAP",
         "liveDemoUrl": "",
-        "description": "성균관대학교 소프트웨어학과, 컴퓨터공학과 학생들을 위한 Campus Map"
+        "description": "성균관대학교 소프트웨어학과, 컴퓨터공학과 학생들을 위한 Campus Map",
+        "prize": true
     },
     {
         "id": 9,
@@ -195,7 +203,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=Xu5jPIvz6Cw",
         "repositoryUrl": "https://github.com/SKKUramic/OSSP_Team9",
         "liveDemoUrl": "",
-        "description": ""
+        "description": "",
+        "prize": true
     },
     {
         "id": 10,
@@ -217,7 +226,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=WmwaSrSZrJs",
         "repositoryUrl": "https://github.com/jmhee28/Voca-testgenerator",
         "liveDemoUrl": "http://revocab.duckdns.org:8000/",
-        "description": "Application for vocabulary test generation\n"
+        "description": "Application for vocabulary test generation\n",
+        "prize": true
     },
     {
         "id": 11,
@@ -239,7 +249,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=hoCoOwx7QhY",
         "repositoryUrl": "https://github.com/seeewd/oss_steamtracker",
         "liveDemoUrl": "http://oss-steamtracker.s3-website.ap-northeast-2.amazonaws.com/",
-        "description": "Multi-platform game deals for your needs. "
+        "description": "Multi-platform game deals for your needs. ",
+        "prize": true
     },
     {
         "id": 12,
@@ -261,7 +272,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=QxnX_vPNGvQ",
         "repositoryUrl": "https://github.com/minji-dev/OSS_team12.git",
         "liveDemoUrl": "",
-        "description": "실시간 날씨 및 옷 추천 서비스"
+        "description": "실시간 날씨 및 옷 추천 서비스",
+        "prize": true
     },
     {
         "id": 13,
@@ -283,7 +295,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=KWVfxaNHasM",
         "repositoryUrl": "https://github.com/jihooni0914/OSSP_Team13",
         "liveDemoUrl": "",
-        "description": "지하철역을 골라 그날의 데이트 코스를 추천"
+        "description": "지하철역을 골라 그날의 데이트 코스를 추천",
+        "prize": true
     },
     {
         "id": 14,
@@ -305,7 +318,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=ldXJsjl7_UI",
         "repositoryUrl": "https://github.com/yooooooochan/fitness-website",
         "liveDemoUrl": "https://yooooooochan.github.io/fitness-website/",
-        "description": "운동 및 건강 관리에 관심이 있는 학우들을 위해 편의기능을 제공하는 웹페이지입니다."
+        "description": "운동 및 건강 관리에 관심이 있는 학우들을 위해 편의기능을 제공하는 웹페이지입니다.",
+        "prize": true
     },
     {
         "id": 15,
@@ -327,7 +341,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=UrxIPhZyB5Y",
         "repositoryUrl": "https://github.com/Taehyun-Koh/TeamKeep",
         "liveDemoUrl": "",
-        "description": "팀원들과 자료공유가 가능한 데스크톱 앱입니다."
+        "description": "팀원들과 자료공유가 가능한 데스크톱 앱입니다.",
+        "prize": true
     },
     {
         "id": 16,
@@ -346,10 +361,11 @@
                 "department": "소프트웨어학과"
             }
         ],
-        "videoUrl": "https://www.youtube.com/watch?v=KP5lQKrZGzA",
+        "videoUrl": "https://www.youtube.com/watch?v=KP5lQKrZGzA&t=69s",
         "repositoryUrl": "https://github.com/rlaaals/ossp_project",
         "liveDemoUrl": "",
-        "description": "Web application which can help people codi themselves. "
+        "description": "Web application which can help people codi themselves. ",
+        "prize": true
     },
     {
         "id": 17,
@@ -371,7 +387,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=ReUuH3mMbYc",
         "repositoryUrl": "https://github.com/lim-it-ing/MultiUser-Meeting-Scheduler",
         "liveDemoUrl": "",
-        "description": "Arrange each other's schedule, by input of each user's schedule."
+        "description": "Arrange each other's schedule, by input of each user's schedule.",
+        "prize": false
     },
     {
         "id": 18,
@@ -393,7 +410,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=7F6TOuYpI2E",
         "repositoryUrl": "https://github.com/mygummy/stock-simulation.git",
         "liveDemoUrl": "",
-        "description": "주식 시뮬레이션 게임"
+        "description": "주식 시뮬레이션 게임",
+        "prize": true
     },
     {
         "id": 19,
@@ -415,7 +433,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=y1ituYyKQP8",
         "repositoryUrl": "https://github.com/SKKU-2022F-OSSP-TEAM19/GitRank",
         "liveDemoUrl": "",
-        "description": "깃허브 기반 랭킹 리더보드"
+        "description": "깃허브 기반 랭킹 리더보드",
+        "prize": true
     },
     {
         "id": 20,
@@ -437,7 +456,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=awkAR2I4puQ",
         "repositoryUrl": "https://github.com/W00SHH/W00SHH.github.io",
         "liveDemoUrl": "https://w00shh.github.io/",
-        "description": "졸업요건 확인 웹사이트"
+        "description": "졸업요건 확인 웹사이트",
+        "prize": true
     },
     {
         "id": 21,
@@ -459,7 +479,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=FPLxrAzVy58",
         "repositoryUrl": "https://github.com/wew97/ossp_team21",
         "liveDemoUrl": "https://wew97.github.io/ossp_team21/",
-        "description": "If you have meet other people and want to decide upon a place that is not too far away for you, THIS WILL HELP!"
+        "description": "If you have meet other people and want to decide upon a place that is not too far away for you, THIS WILL HELP!",
+        "prize": true
     },
     {
         "id": 22,
@@ -481,7 +502,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=cukRYZwpI-I",
         "repositoryUrl": "https://github.com/eraw1am/OSSP",
         "liveDemoUrl": "https://eraw1am.github.io/OSSP/",
-        "description": "패션 선택에 어려움을 느끼는 소비자를 위하여 딥러닝을 통한 얼굴상 감별 및 그에 따른 스타일 추천"
+        "description": "패션 선택에 어려움을 느끼는 소비자를 위하여 딥러닝을 통한 얼굴상 감별 및 그에 따른 스타일 추천",
+        "prize": true
     },
     {
         "id": 23,
@@ -503,7 +525,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=Xx7BBCHqJ14",
         "repositoryUrl": "https://github.com/hhy4761/2022fall_41_OSS",
         "liveDemoUrl": "",
-        "description": "10대 학생들에게 공부의 목적성이나, 좋은 마음가짐을 가르쳐 줄 수 있는 커뮤니티"
+        "description": "10대 학생들에게 공부의 목적성이나, 좋은 마음가짐을 가르쳐 줄 수 있는 커뮤니티",
+        "prize": true
     },
     {
         "id": 24,
@@ -525,7 +548,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=WOZJysaL9sI",
         "repositoryUrl": "https://github.com/fatdzipanda/OSSP-Group-Project",
         "liveDemoUrl": "",
-        "description": "We help you manage your job applications for a brighter future."
+        "description": "We help you manage your job applications for a brighter future.",
+        "prize": true
     },
     {
         "id": 25,
@@ -543,7 +567,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=FnjDR8gp7AQ",
         "repositoryUrl": "https://github.com/selinniles/opensource_project",
         "liveDemoUrl": "",
-        "description": ""
+        "description": "",
+        "prize": false
     },
     {
         "id": 26,
@@ -561,7 +586,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=uXWaqCCdIgY",
         "repositoryUrl": "https://github.com/aizathamizuddin/Food-Overflow",
         "liveDemoUrl": "",
-        "description": "FoodOverflow is a question and answer website for enthusiast food lovers."
+        "description": "FoodOverflow is a question and answer website for enthusiast food lovers.",
+        "prize": false
     },
     {
         "id": 27,
@@ -583,7 +609,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=Jy11ZriB32Y",
         "repositoryUrl": "https://github.com/sanzbmaria/Team27",
         "liveDemoUrl": "",
-        "description": "A board, which gathers the most recient news from your major and the main skku notice board"
+        "description": "A board, which gathers the most recient news from your major and the main skku notice board",
+        "prize": true
     },
     {
         "id": 28,
@@ -605,7 +632,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=t-dfnvg7tb8",
         "repositoryUrl": "https://github.com/ossp-group28-final-project/final-project",
         "liveDemoUrl": "",
-        "description": "공모전 참여를 위한 팀원 찾기 및 공모전 계획 보조 사이트"
+        "description": "공모전 참여를 위한 팀원 찾기 및 공모전 계획 보조 사이트",
+        "prize": true
     },
     {
         "id": 29,
@@ -627,7 +655,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=9VI8XmxrinM",
         "repositoryUrl": "https://github.com/youngmin5219/ossp_team_project",
         "liveDemoUrl": "https://youngmin5219.github.io/ossp_team_project/",
-        "description": "이력서에 대한 tip과 관련 영상들을 제공하고 사용자 정보를 입력하여 쉽게 간단하게 이력서를 만들 수 있는 웹페이지"
+        "description": "이력서에 대한 tip과 관련 영상들을 제공하고 사용자 정보를 입력하여 쉽게 간단하게 이력서를 만들 수 있는 웹페이지",
+        "prize": false
     },
     {
         "id": 30,
@@ -649,7 +678,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=etFQuUTkYFo",
         "repositoryUrl": "https://github.com/Waterbird20/OSSP-Final-Project",
         "liveDemoUrl": "",
-        "description": "학교 수강신청 방식과 유사하게 작동하는 튜터링 신청 웹사이트이다."
+        "description": "학교 수강신청 방식과 유사하게 작동하는 튜터링 신청 웹사이트이다.",
+        "prize": true
     },
     {
         "id": 31,
@@ -667,7 +697,8 @@
         "videoUrl": "https://www.youtube.com/watch?v=OkiQl_mJS78",
         "repositoryUrl": "https://github.com/lieion/OpenSource_Final_Project",
         "liveDemoUrl": "",
-        "description": "교내 카페들에 대한 스마트 오더 시스템을 구축"
+        "description": "교내 카페들에 대한 스마트 오더 시스템을 구축",
+        "prize": false
     },
     {
         "id": 32,
@@ -685,6 +716,7 @@
         "videoUrl": "https://www.youtube.com/watch?v=5tDZeNR9mJk",
         "repositoryUrl": "https://github.com/hcsworld/PS_chat",
         "liveDemoUrl": "",
-        "description": "교수님과 학생들의 익명 소통 공간"
+        "description": "교수님과 학생들의 익명 소통 공간",
+        "prize": true
     }
 ]

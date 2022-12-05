@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { AiFillGithub, AiFillHome, AiFillYoutube } from "react-icons/ai";
+import { SHOW_TEAM_ID } from "../config";
 import type { Project } from "../types";
 
 interface PreviewProject {
@@ -38,7 +39,7 @@ export const Preview = ({ project }: PreviewProject) => {
             <CardBody>
                 <Stack direction={"column"} spacing={2}>
                     <Text fontSize={{ base: 20, md: 24 }} fontWeight={700}>
-                        {project.projectName}
+                        {`${SHOW_TEAM_ID ? project.id + " " : ""}${project.projectName}`}
                     </Text>
                     <Text fontSize={{ base: "xs", md: "sm" }}>
                         {project.description}
