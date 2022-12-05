@@ -62,7 +62,7 @@
                 "department": "소프트웨어학과"
             }
         ],
-        "videoUrl": "https://www.youtube.com/watch?v=-9tQc1o688E&feature=youtu.be",
+        "videoUrl": "https://www.youtube.com/watch?v=-9tQc1o688E",
         "repositoryUrl": "https://github.com/Suyoung-Min/Hang-man",
         "liveDemoUrl": "https://suyoung-min.github.io/Hang-man/",
         "description": "Hangman is a word guessing game. Guess a word, phrase by suggesting letters within a certain number of guesses.",
@@ -361,7 +361,7 @@
                 "department": "소프트웨어학과"
             }
         ],
-        "videoUrl": "https://www.youtube.com/watch?v=KP5lQKrZGzA&t=69s",
+        "videoUrl": "https://www.youtube.com/watch?v=KP5lQKrZGzA",
         "repositoryUrl": "https://github.com/rlaaals/ossp_project",
         "liveDemoUrl": "",
         "description": "Web application which can help people codi themselves. ",
